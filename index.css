@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid black;
+    text-align: center;
+}
+canvas{
+    display: block;
+}
+h1{
+    width: 85vw;
+    position: absolute;
+    top: 4vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 0 0 10px lightcyan;
+    font-family: " Source Sans Pro";
+    font-size: 3em;
+    font-weight: 900;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+p{
+    width: 100vw;
+    font-style: italic;
+    position: absolute;
+    top: 30vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: "Source Sans Pro";
+    font-size: 1em;
+    font-weight: 400;
+    -webkit-user-select: none;
+    user-select: none;
+}
+iframe{
+    border: 0;
+    width: 100vw;
+    height: 35vh;
+    position: fixed;
+    left: 0vw;
+    bottom: 10vh;
+}
